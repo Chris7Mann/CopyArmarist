@@ -355,10 +355,11 @@ body {
   content: '';
   background-image: url(../img/freccetta.svg);
   position: absolute;
-  width: 22px;
-  height: 13px;
-  right: 30px;
-  top: 42%;
+  width: 30px;
+  height: 30px;
+  right: 4px;
+  top: 50%;
+  background-repeat: no-repeat;
 }
 
 /* ********************************************************************
@@ -436,10 +437,11 @@ body {
   content: '';
   background-image: url(../img/freccettabrown.svg);
   position: absolute;
-  width: 22px;
-  height: 13px;
-  right: 30px;
-  top: 42%;
+  width: 30px;
+  height: 30px;
+  right: 4px;
+  top: 50%;
+  background-repeat: no-repeat;
 }
 
 /* ********************************************************************
@@ -604,7 +606,7 @@ button {
 
   .nav-container {
     justify-content: space-between;
-    padding: 0 2rem;
+    padding: 0 1rem;
   }
 
   .fa-bars {
@@ -644,6 +646,8 @@ button {
   .about-content {
     width: 100%;
     max-width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .history-container {
@@ -653,6 +657,8 @@ button {
   .history-content {
     width: 100%;
     max-width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .footer-container {
@@ -679,7 +685,12 @@ button {
 
   .why-choose-container{
     width: 100%;
-    padding: 0 30px;
+    padding: 0 1rem;
+  }
+
+  .why-item h3 {
+    font-size: 1rem;
+    padding: 0 3rem; 
   }
 
   .contact-container{
@@ -687,7 +698,7 @@ button {
   }
 
   .contact-form{
-    padding: 0 2rem;
+    padding: 0 1rem;
   }
   
   .top-maps{
@@ -696,7 +707,7 @@ button {
 
   iframe{
     max-width: 100%;
-    padding: 0 2rem;
+    padding: 0 1rem;
   }
   
 }
