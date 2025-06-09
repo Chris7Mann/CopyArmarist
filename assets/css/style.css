@@ -822,6 +822,10 @@ button {
 }
 
 @media (max-width: 480px) {
+  .hero-image{
+    background-position-x: center;
+    background-position-y: center ;
+  }
   .service-item h3::before {
     display: none;
   }
